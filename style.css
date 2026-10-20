@@ -19,3 +19,9 @@ body
   border-radius: 50%; /* trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 
 }
+
+.kartu-profil {
+  text-align: center;
+}
+
+
