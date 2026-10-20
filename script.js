@@ -1,7 +1,7 @@
-//1. Pilih tombol berdasarkan ID-nya
-const judol = document.getElementById('tombol');
-// 2. Tambahkan 'event listener' untuk aksi 'click'
-judol.addEventListener('click', function() {
-  // 3. Jalankan kode ini ketika tombol di-klik
+// 1. Memilih tombol pada halaman web berdasarkan ID 'tombol'
+const tombolJudol = document.getElementById('tombol');
+// 2. Menambahkan aksi 'klik' pada tombol tersebut
+tombolJudol.addEventListener('click', function() {
+  // 3. Menampilkan kotak pesan (alert) ketika tombol diklik
   alert('Halo! Terimakasih sudah berkunjung!');
 });
