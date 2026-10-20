@@ -1,7 +1,7 @@
 //1. Pilih tombol berdasarkan ID-nya
-const tombol = document.getElementById('judol');
+const judol = document.getElementById('tombol');
 // 2. Tambahkan 'event listener' untuk aksi 'click'
-tombol.addEventListener('click', function() {
+judol.addEventListener('click', function() {
   // 3. Jalankan kode ini ketika tombol di-klik
   alert('Halo! Terimakasih sudah berkunjung!');
 });
